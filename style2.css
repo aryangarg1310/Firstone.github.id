@@ -1,0 +1,67 @@
+body{
+    background-color: blanchedalmond;
+}
+#main{
+    width: 75%;
+    margin: 0px auto;
+    background-color: rgb(247, 247, 247);
+}
+#header{
+    background-color: rgb(114, 47, 1);
+    padding: 10px;
+    text-align: center;
+}
+ul{
+    margin: 5px 15px;
+}
+li{
+    display: inline-block;
+    list-style-type: square;
+    padding: 15px;
+    margin-inline-end: 62px;
+}
+#header a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15 px;
+    padding: 5px;
+    color: black;
+    background-color: bisque    ;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#image1 img{
+    width: 100%;
+}
+#image2{
+    text-align: center;
+    margin: 5px auto;
+}
+#name, #price {
+    text-align: center;
+}
+#add{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#add a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 500px;
+    margin-top: 10px;
+    text-align: center;
+}
+#add a:hover{
+    background-color: rgb(138, 57, 0);
+    color: white;
+}
+img.footer{
+    width: 100%;
+    margin-top: 20px;
+}
